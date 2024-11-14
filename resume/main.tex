@@ -20,6 +20,14 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+}
 
 %----------FONT OPTIONS----------
 % sans-serif
@@ -113,9 +121,9 @@
 
 \begin{center}
     \textbf{\Huge \scshape David Sha} \\ \vspace{1pt}
-    \small +61-421-695-846 $|$ \href{mailto:david@davidsha.me}{\underline{david@davidsha.me}} $|$ 
-    \href{https://www.linkedin.com/in/david-sha/}{\underline{linkedin.com/in/david-sha}} $|$
-    \href{https://github.com/d4vidsha}{\underline{github.com/d4vidsha}}
+    \small +61-421-695-846 $|$ \href{mailto:david@davidsha.me}{david@davidsha.me} $|$ 
+    \href{https://www.linkedin.com/in/david-sha/}{linkedin.com/in/david-sha} $|$
+    \href{https://github.com/d4vidsha}{github.com/d4vidsha}
 \end{center}
 
 
@@ -187,14 +195,14 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-      {\textbf{Scheduler (Web Application)} $|$ \emph{Fullstack, Python, TypeScript, FastAPI, Vite, Docker}}{June 2024 -- Present}
+      {\textbf{Scheduler Web Application (\href{https://github.com/d4vidsha/scheduler}{Link})} $|$ \emph{Fullstack, TypeScript, FastAPI, Vite, Docker}}{June 2024 -- Present}
       \resumeItemListStart
         \resumeItem{Active maintainer of a growing open source task management solution.}
         \resumeItem{Implemented a CI/CD pipeline for automated testing and deployment utilising self-hosted runners, reducing manual overhead and ensuring code stability across releases.}
         \resumeItem{Built and maintained a comprehensive backlog of tasks using GitHub Projects, facilitating clear project direction and efficient contributor collaboration.}
       \resumeItemListEnd
       \resumeProjectHeading
-      {\textbf{Home Lab} $|$ \emph{Docker, Kubernetes, Linux, Proxmox, restic, rclone}}{Feb. 2021 -- Present}
+      {\textbf{Home Lab} $|$ \emph{Kubernetes, Docker, Linux, Proxmox, restic, rclone}}{Feb. 2021 -- Present}
       \resumeItemListStart
         \resumeItem{Created a home lab to self-host a number of apps i.e. password manager, file hosting, VPN server.}
         \resumeItem{Implemented 3-2-1 backup strategy using Backblaze B2, restic, rclone and a Raspberry Pi.}
@@ -203,7 +211,7 @@
         % \resumeItem{Utilise Proxmox to manage containers and virtual machines}
         % \resumeItem{Hardware includes (1) Raspberry Pi 4B, and (2) custom-built server, parts independently sourced}
         % \resumeItem{Raspberry Pi runs Pi-Hole (DNS server) and Unbound (DNS resolver) among other services.}
-        \resumeItem{Migrated frequently-used services from Docker to Kubernetes using Helm charts.}
+        \resumeItem{Migrated frequently-used services from Docker to Kubernetes using Helm charts for scalability.}
       \resumeItemListEnd
       \resumeProjectHeading
       {\textbf{Certified Expert at n8n} $|$ \emph{Python, JavaScript, YouTube, Oracle Cloud, AWS}}{Aug. 2022 -- Apr. 2024}
@@ -220,7 +228,7 @@
     %     \resumeItem{Blog was deployed on Oracle Cloud using Docker}
     %   \resumeItemListEnd
       \resumeProjectHeading
-      {\textbf{Remote Procedure Call Framework} $|$ \emph{C, GNU make, Valgrind}}{Apr. 2023 -- May 2023}
+      {\textbf{Remote Procedure Call Framework (\href{https://github.com/d4vidsha/rpc-framework}{Link})} $|$ \emph{C, GNU make, Valgrind}}{Apr. 2023 -- May 2023}
       \resumeItemListStart
         \resumeItem{Designed an API enabling function execution on a remote server, as if run locally.}
         \resumeItem{Implemented serialisation/deserialisation of a nested data structure, crucial for protocol communication.}
@@ -265,7 +273,7 @@
     \small{\item{
      \textbf{Languages}{: Python, C, Java, JavaScript/TypeScript}, Haskell/Prolog \\
      \textbf{Frameworks}{: FastAPI, Next.js, TailwindCSS} \\
-     \textbf{Developer Tools}{: Docker, Kubernetes, React, Git, GNU make, Valgrind, AWS, Oracle Cloud, n8n, restic, vim} \\
+     \textbf{Developer Tools}{: Kubernetes, Docker, React, Git, GNU make, Valgrind, AWS, Oracle Cloud, n8n, restic} \\
     }}
  \end{itemize}
 
